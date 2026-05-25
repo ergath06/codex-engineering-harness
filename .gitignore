@@ -1,0 +1,11 @@
+.DS_Store
+Thumbs.db
+bin/
+obj/
+node_modules/
+.idea/
+.vscode/
+*.user
+*.suo
+*.tmp
+*.log
