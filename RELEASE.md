@@ -15,6 +15,6 @@ Before releasing a harness version:
 
 ## Current Release
 
-Version: `0.2.0`
+Version: `0.2.1`
 
-Status: comprehensive template update.
+Status: repository boundary guidance update.
