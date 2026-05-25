@@ -2,6 +2,14 @@
 
 This repository contains the Codex Engineering Harness. When working in this repository or in a project that imports these assets, Codex must follow the harness unless the human reviewer explicitly approves a different process.
 
+## Repository Boundary Rule
+
+The `codex-engineering-harness` repository is the reusable source for process assets. Do not modify this repository when building an application unless the human explicitly asks to improve, fix, or release the harness itself.
+
+For application work, create or use a separate project repository and import/copy the harness assets into that project. Project-specific requirements, architecture, implementation plans, ADRs, tests, and application code belong in the application repository, not in the harness source repository.
+
+If a project reveals a reusable process improvement, record it as a harness follow-up. Apply it to this repository only after the human explicitly approves a harness change.
+
 ## Required Behavior
 
 Before writing or modifying application code:
