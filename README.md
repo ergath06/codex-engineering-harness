@@ -18,6 +18,12 @@ The harness helps Codex and human reviewers collaborate through structured phase
 
 The goal is not ceremony for its own sake. The goal is to make software work safer, clearer, faster, and easier to maintain.
 
+## Repository Boundary
+
+This repository is the reusable harness source. It should not be used as an application project repository.
+
+For application work, create or use a separate project repository and import/copy the harness assets into that project. Modify this harness repository only when intentionally improving, fixing, or releasing the harness itself.
+
 ## Core Assets
 
 ```text
@@ -79,6 +85,6 @@ Recommended first project steps:
 
 ## Version
 
-Current baseline: `0.2.0`.
+Current baseline: `0.2.1`.
 
 See [CHANGELOG.md](CHANGELOG.md) for notable changes.
