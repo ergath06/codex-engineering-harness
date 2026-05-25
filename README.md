@@ -47,7 +47,7 @@ RELEASE.md
 
 ## Template Tiers
 
-The harness includes lightweight defaults for small work and richer opt-in templates for larger or higher-risk projects.
+The harness includes lightweight defaults for small work and fuller opt-in templates for larger or higher-risk projects.
 
 Lightweight defaults:
 
