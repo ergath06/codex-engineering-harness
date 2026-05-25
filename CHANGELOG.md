@@ -2,6 +2,11 @@
 
 All notable changes to this harness are recorded here.
 
+## 0.2.1 - 2026-05-25
+
+- Added repository boundary guidance to prevent application work from modifying the harness source repo unless explicitly approved.
+- Clarified that application-specific docs, code, tests, and ADRs belong in separate application repositories.
+
 ## 0.2.0 - 2026-05-24
 
 - Added opt-in comprehensive requirements template.
