@@ -45,6 +45,22 @@ CHANGELOG.md
 RELEASE.md
 ```
 
+## Template Tiers
+
+The harness includes lightweight defaults for small work and richer opt-in templates for larger or higher-risk projects.
+
+Lightweight defaults:
+
+- `.harness/templates/requirements.template.md`
+- `.harness/templates/architecture.template.md`
+
+Comprehensive templates:
+
+- `.harness/templates/requirements-full.template.md`
+- `.harness/templates/architecture-comprehensive.template.md`
+
+Use the comprehensive templates when the project is ambiguous, regulated, security-sensitive, integration-heavy, multi-team, or expected to become a long-lived system.
+
 ## How To Use
 
 For a new project, copy or import the `.harness/` directory and `AGENTS.md` into the project repository. Then create project-specific docs from the templates in `.harness/templates/`.
@@ -63,6 +79,6 @@ Recommended first project steps:
 
 ## Version
 
-Current baseline: `0.1.0`.
+Current baseline: `0.2.0`.
 
 See [CHANGELOG.md](CHANGELOG.md) for notable changes.

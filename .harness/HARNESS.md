@@ -1,6 +1,6 @@
 # Engineering Harness
 
-Version: `0.1.0`
+Version: `0.2.0`
 
 ## Purpose
 
@@ -53,6 +53,22 @@ Projects may include steering material that guides planning and implementation:
 Before implementation begins, relevant steering assets must be identified and reviewed. If a target architecture, platform, or framework is selected, corresponding reference assets should guide planning and implementation unless explicitly overridden.
 
 Reference assets are guidance, not automatic source of truth. If a reference example conflicts with approved requirements, security needs, accessibility needs, maintainability goals, or architecture decisions, the conflict must be documented and resolved intentionally.
+
+## Template Selection
+
+Use lightweight templates by default:
+
+- `.harness/templates/requirements.template.md`
+- `.harness/templates/architecture.template.md`
+- `.harness/templates/implementation-plan.template.md`
+- `.harness/templates/testing-strategy.template.md`
+
+Use comprehensive templates when the project is large, ambiguous, regulated, security-sensitive, multi-team, integration-heavy, or expected to become a long-lived system:
+
+- `.harness/templates/requirements-full.template.md`
+- `.harness/templates/architecture-comprehensive.template.md`
+
+The comprehensive templates are opt-in steering assets. They should improve quality and traceability without creating unnecessary ceremony. If a section does not apply, mark it `Not applicable` and briefly explain why.
 
 ## Universal Gate Loop Protocol
 

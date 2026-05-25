@@ -15,6 +15,6 @@ Before releasing a harness version:
 
 ## Current Release
 
-Version: `0.1.0`
+Version: `0.2.0`
 
-Status: initial scaffold.
+Status: comprehensive template update.

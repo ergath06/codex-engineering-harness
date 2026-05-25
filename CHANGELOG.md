@@ -2,6 +2,13 @@
 
 All notable changes to this harness are recorded here.
 
+## 0.2.0 - 2026-05-24
+
+- Added opt-in comprehensive requirements template.
+- Added opt-in comprehensive architecture template.
+- Added template selection guidance.
+- Added line-ending normalization rules.
+
 ## 0.1.0 - 2026-05-24
 
 - Added initial Codex Engineering Harness baseline.

@@ -12,6 +12,8 @@ Before writing or modifying application code:
 4. Create or update the required planning artifacts.
 5. Pause at the appropriate human review gate.
 
+Use lightweight templates by default. Use `requirements-full.template.md` and `architecture-comprehensive.template.md` when the project is large, ambiguous, regulated, security-sensitive, integration-heavy, multi-team, or expected to become a long-lived system.
+
 ## Human Gates
 
 Every gate supports four outcomes:
