@@ -1,6 +1,6 @@
 # Engineering Harness
 
-Version: `0.2.0`
+Version: `0.2.1`
 
 ## Purpose
 
@@ -19,6 +19,15 @@ This harness governs how we design, build, validate, document, and release softw
 - Major decisions are explainable, documented, and traceable.
 - Process weight scales with project size, complexity, and risk.
 - Reference examples guide implementation but do not override approved requirements or architecture.
+- Application work belongs in an application repository; harness source changes require explicit human approval.
+
+## Repository Boundary Rule
+
+The harness repository is the reusable source for process assets. It should not be used as an application project repository.
+
+For a new application, create or use a separate project repository, then import or copy the relevant harness assets into that repository. Project-specific requirements, architecture documents, implementation plans, ADRs, tests, and application code belong in the application repository.
+
+Modify the harness source repository only when the human explicitly requests a harness improvement, fix, template update, reference architecture update, or harness release. If an application project reveals a reusable process improvement, record it as a harness follow-up and apply it to the harness only after approval.
 
 ## Project Scale Classification
 
